@@ -4,8 +4,8 @@ import HamburgerMenu from "./HamburgerMenu";
 const Navbar: React.FC = () => {
   return (
     <nav className="flex justify-between items-center py-10 px-12">
-      <h1 className="font-display text-3xl">DEMO</h1>
-      <div className="max-md:hidden">
+      <h1 className="font-display text-3xl select-none">DEMO</h1>
+      <div className="max-md:hidden font-semibold">
         <Link href="/about" className="hover:text-yellow-400 ml-4">
           About
         </Link>
