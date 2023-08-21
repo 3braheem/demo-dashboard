@@ -1,7 +1,7 @@
 import React from "react";
 import Card, { ICard } from "./Card";
 import { v4 as uuidv4 } from "uuid";
-import ScatterPlot from "./ScatterPlot";
+import ScatterPlot from "./plots/ScatterPlot";
 
 interface IInfoCards extends ICard {
   len: number;
